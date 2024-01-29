@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/d029d63f4b.js" crossorigin="anonymous"></script>
+    <title>Shop</title>
+    
+</head>
+<body>
+    <div class="nav">
+        <div class="header"> 
+            <div class="logo-menu">
+                <div class="logo">
+                    <img src="image/logo-removebg-preview.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="active">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li id="list">
+                            <button>List</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                <p class="iconCard">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartnumber">0</span>
+                </p>
+                <p><i class="fa-regular fa-heart"></i></p>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <div class="btn-container">
+            <button class="btn active" data-id="all">All</button><br>
+            <button class="btn" data-id="men">Men</button><br>
+            <button class="btn" data-id="women">Women</button><br>
+            <button class="btn" data-id="kid">Kid</button>
+        </div>
+        <div class="menu-wrapper">
+            <!-- <article class="menu-card">
+                <img src="image/kid5.jpg" alt="kid" class="img">
+                <span class="price">30.69$</span>
+                <div class="card-heading">
+                    <h3>Kid</h3>
+                    <button class"btn-cart">Buy Now</button>
+                </div>
+            </article> -->
+        </div>
+        <div class="card-container">
+            <h1 id="sq-shoping">
+                SQUARD SHOPPING
+            </h1>
+            <div id="add-to-cart">
+
+            </div>
+            <!-- <div class="card-item">
+                <img src="image/kid1.jpg" alt="" class="img-item">
+                <p class="name-item">MEN</p>
+                <h3 class="price-item">30$</h3>
+                <div class="incre-decre">
+                    <button class="decrease">--</button>
+                    <span class="cart-number">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div> -->
+            <div class="btn-buttom">
+                <button class="close">Close</button>
+                <button class="check-out">Check Out</button>
+            </div>
+        </div>
+    </main>
+    <div class="footer" data-aos="fade-up">
+
+        <div class="footer-grid">
+            <div class="grid">
+                <h1>CATEGORIES</h1>
+                <p>Women</p><br>
+                <p>Men</p><br>
+                <p>Kid</p><br>
+                <p>Watch</p><br>
+            </div>
+            <div class="grid">
+                <h1>HELP</h1>
+                <p>Track Order</p><br>
+                <p>Returns</p><br>
+                <p>Shipping</p><br>
+                <p>FAQs</p><br>
+            </div>
+            <div class="grid">
+                <h1>GET IN TOUCH</h1>
+                <p>
+                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                </p>
+                <div class="facebook">
+                    <p>
+                        <a href="https://www.facebook.com/teang.tela?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook" style="color: #249df9;"></i></a>
+                    </p>
+                    <p>
+                        <a href="https://t.me/teang_tela"><i class="fa-brands fa-telegram" style="color: #1fb5db;"></i></a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/teang.tela/"><i class="fa-brands fa-instagram" style="color: #9d0080;"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <h1>NEWSLETTER</h1>
+                <input type="email" placeholder="email@example.com" class="input">
+                <button class="subscribe">
+                    SUBCRIBE
+                </button>
+            </div>
+        </div>
+        <div class="creator">
+            <h1>
+                <!-- TEANG TELA Copyright@2024  -->
+            </h1>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            AOS.init();
+        })
+    </script>
+</body>
+</html>

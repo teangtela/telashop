@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-content{
+  top: 0;
+  position: sticky;
+}
+.nav{
+    background-color: white;
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px -10px;
+    /* background-color: transparent; */
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 60px;
+}
+.logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.logo img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+}
+.menu a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu a:hover {
+    color: aqua;
+}
+a.active{
+    color: aqua;
+}
+.card {
+    display: flex;
+    gap: 20px;
+}
+.card p {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.body{
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(220, 220, 220);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.body h1{
+    width: 20%;
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(62, 62, 62);
+    border-radius: 20px;
+    padding: 12px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(56, 56, 56, 0.3) 0px 8px 16px -8px;
+}
+.people{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.people-contain{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(56, 56, 56, 0.3) 0px 8px 16px -8px;
+    width: 89%;
+    height: 420px;
+    padding: 20px;
+    background-color: rgb(219, 215, 215);
+    border-radius: 10px;
+}
+.people-contain img {
+    width: 100%;
+    height: 76%;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text h3{
+    font-size: 25px;
+}
+.text p{
+    color: grey;
+    margin-top: 6px;
+    font-family: sans-serif;
+}
+.icon{
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  gap: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #222222;
+    padding-top: 50px;
+    height: 47vh;
+  }
+  .footer-grid{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .grid h1{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .grid p{
+    font-size: 17px;
+    color: rgb(144, 143, 143);
+  }
+  .facebook{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .facebook p{
+    font-size: 30px;
+    transition: all 0.3s ease;
+  }
+  .facebook p:hover{
+    transform: translateY(-5px);
+  }
+  .grid input{
+    height: 40px;
+   border: none;
+    border-bottom: 1px solid;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+  }
+  .grid button{
+    padding: 15px 40px;
+    background-color: rgb(222, 244, 236);
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(51, 50, 50);
+    transition: all 0.3s ease;
+  }
+  .grid button:hover{
+    background-color: rgb(144, 143, 143);
+    color: white;
+  }
+  .creator{
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .creator h1{
+    font-size: 27px;
+    color: rgb(142, 141, 141);
+  }
